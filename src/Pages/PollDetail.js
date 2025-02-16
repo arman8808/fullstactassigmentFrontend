@@ -33,7 +33,7 @@ const PollDetails = () => {
 
 
     await axios.put(
-      `${process.env.React_App_Base_Url + `/polls//get-one/${pollId}/vote`}`,
+      `${process.env.React_App_Base_Url + `/polls/get-one/${pollId}/vote`}`,
       {
         option,
       }
